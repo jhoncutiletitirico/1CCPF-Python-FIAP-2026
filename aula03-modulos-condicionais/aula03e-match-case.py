@@ -6,8 +6,8 @@ escolha_usuario = 1
 
 match escolha_usuario:
     case 0:
-        status = "Sair do programa"
+        print("sair do programa")
     case 1:
-        status = "Entrar no programa"
+        print("entrar no programa")
     case _:
-        status = "Error"
+        print("erro!!")
